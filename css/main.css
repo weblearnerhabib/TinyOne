@@ -482,6 +482,33 @@ a.footerSocial:hover {
     }
 }
 
+/* Back To Top */
+.go-top {
+    position: fixed;
+    bottom: 2%;
+    right: 11%;
+    padding: 20px;
+    display: none;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+}
+
+.go-top:after {
+    font-family: FontAwesome;
+    content: "\f106";
+    background-color: var(--primary);
+    padding: 10px 15px;
+    color: var(--black);
+    position: absolute;
+    bottom: 10px;
+    font-size: 28px;
+}
+
+.go-top:hover {
+    transition: all .4s linear;
+    transform: scale(1.1);
+}
+
 /* End Cascading Style Sheet */
 /* For Responsiveness Allow responsive.css from css folder */
 /* End Cascading Style Sheet */
