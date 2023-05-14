@@ -1,0 +1,489 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* Required Code  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+body,
+p,
+span {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* Required Code End */
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #fcdb00;
+}
+
+.theme_color {
+    color: var(--primary);
+}
+
+.back-primary {
+    background: var(--primary);
+}
+
+.container {
+    max-width: 960px !important;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+/* padding */
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-110 {
+    padding-top: 110px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+
+/* margin */
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mb-90 {
+    margin-bottom: 90px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.mb-120 {
+    margin-bottom: 100px;
+}
+
+/* Main Coding Start */
+/* Main Coding Start */
+/* Main Coding Start */
+
+
+
+
+/* nav code below */
+nav#customNav {
+    padding: 30px 0;
+}
+
+.myCustonNav li {
+    padding: 0px 20px;
+}
+
+.myCustonNav li a {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #010101;
+}
+
+
+/* slider code below */
+.sliderLeft {
+    margin-top: 70px;
+}
+
+.socialSlick svg {
+    font-size: 35px;
+    margin: 10px 20px 0 0;
+}
+
+.singleSlickFirstPara {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.singleSlickSecondPara {
+    padding-right: 20px;
+}
+
+.sliderRight img {
+    max-width: 325px;
+    margin: 0 auto;
+}
+
+/* slick dots  */
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    list-style-type: none;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: #ffffff7a;
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #FFF;
+}
+
+/* slider end */
+
+/* features code below */
+/* features */
+.featuresContent h2 {
+    font-weight: 700;
+}
+
+.featuresContent p {
+    font-size: 20px;
+}
+
+.partFeatures {
+    margin-bottom: 50px;
+}
+
+.partFeatures h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.partFeatures h2 svg {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.partFeatures p {
+    margin-left: 45px;
+}
+
+/* features end */
+
+
+/* footer part code */
+
+
+/* footer */
+
+#footer {
+    color: #898989;
+}
+
+.footer-desc {
+    padding-bottom: 25px;
+}
+
+input#searchMe {
+    width: 52%;
+    display: inline-block;
+    height: 50px;
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+input#subBtn {
+    height: 50px;
+    width: 120px;
+    border-radius: 2px;
+    font-weight: 700;
+    margin-top: -4px;
+    transition: 0.4s ease-in-out;
+}
+
+input#subBtn:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+a.footerSocial {
+    width: 35px;
+    height: 35px;
+    background: var(--primary);
+    display: inline-block;
+    line-height: 35px;
+    color: var(--black);
+    border-radius: 3px;
+    margin: 0px 10px;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+a.footerSocial:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+.footerNav p {
+    margin-bottom: 8px;
+}
+
+.footerNav a:hover {
+    color: var(--primary);
+}
+
+.FullNavFooter,
+.FullNavFooter a {
+    color: var(--white);
+}
+
+.copyright-text {
+    text-align: center;
+    margin-top: 50px;
+    color: var(--primary);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/* End Footer */
+
+
+/* preloader  */
+
+.Preloader {
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    align-items: center;
+    place-content: center;
+}
+
+.Preloader img {
+    transform: scale(0.4);
+}
+
+.activatePreloader {
+    animation: preload 2s forwards;
+}
+
+@keyframes preload {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* End Cascading Style Sheet */
+/* For Responsiveness Allow responsive.css from css folder */
+/* End Cascading Style Sheet */
+
+/* Thank You @ Habibur */

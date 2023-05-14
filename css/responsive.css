@@ -1,0 +1,59 @@
+/* PC or Laptop Layout 992px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 767px) {}
+
+/* Wide Mobile Layout: 480px */
+@media only screen and (min-width: 380px) and (max-width: 767px) {
+    .sliderLeft {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* features */
+    .featuresContent h2 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .featuresContent p br {
+        display: none;
+    }
+
+    .partFeatures {
+        text-align: center;
+        margin-left: -7px;
+    }
+
+    .partFeatures p br {
+        display: none;
+    }
+
+    .featuresContent p {
+        padding-bottom: 20px;
+    }
+
+    /* footer navigation fix*/
+    .FullNavFooter {
+        text-align: center;
+    }
+
+    .footer-desc br {
+        display: none;
+    }
+
+    .footerNav {
+        margin-bottom: 40px;
+    }
+    .footerNav ul{
+        padding-left: 0;
+    }
+    .Preloader img{
+        transform:scale(1);
+    }
+}
